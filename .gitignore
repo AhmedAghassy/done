@@ -1,5 +1,24 @@
-*.keystore
-*.jks
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+/build/
 
+# Android
 /android/key.properties
-/build
+/android/app/google-services.json
+*.jks
+*.keystore
+
+# iOS
+/ios/Runner/GoogleService-Info.plist
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Env & secrets
+.env
+*.env
+/lib/config/secrets.dart
